@@ -34,7 +34,7 @@ function toWords(number: number | string, asOrdinal: boolean): string {
     if (typeof number  == 'string' ) {
         num = parseInt(number.toString(), 10);
     } else {
-        num = number
+        num = number;
     }
 
 
